@@ -1,0 +1,75 @@
+html{
+  height: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://wallpapers.com/images/high/one-piece-pfp-portgas-d-ace-dx0x9oau3l8uejgy.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about{
+  background-color: rgb(49, 142, 49);
+  padding: 10px;
+  border-radius: 16px;
+  width: 50%;
+  color: white;
+  border: none;
+}
+.aboutcontainer{
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.67);
+}
+p{
+  color: white;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.centre{
+  text-align: center;
+}
+.heading{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+    .aboutcontainer {
+      width: 100%;
+      -webkit-backdrop-filter: blur(7px);
+      backdrop-filter: blur(7px);
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .heading {
+      font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p {
+      font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h4 {
+      font-size: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    button {
+      font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  }

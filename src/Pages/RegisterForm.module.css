@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;   
+}
+.registercontainer{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.67);
+}
+label{
+    display: block;
+    margin: 10px 0 5px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.register{
+    margin-top: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+.button{
+    width: 100%;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    .registercontainer {
+      width: 90%;
+    }
+}

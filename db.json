@@ -1,0 +1,104 @@
+{
+  "posts": [
+    {
+      "Username": "",
+      "Password": "",
+      "EmailID": "",
+      "id": 1
+    },
+    {
+      "Username": "",
+      "Password": "",
+      "EmailID": "",
+      "id": 2
+    },
+    {
+      "Username": "",
+      "Password": "",
+      "EmailID": "",
+      "id": 3
+    },
+    {
+      "Username": "",
+      "Password": "",
+      "EmailID": "",
+      "id": 4
+    },
+    {
+      "Username": "",
+      "Password": "",
+      "EmailID": "",
+      "id": 5
+    },
+    {
+      "Username": "",
+      "Password": "",
+      "EmailID": "",
+      "id": 6
+    },
+    {
+      "Username": "",
+      "Password": "",
+      "EmailID": "",
+      "id": 7
+    },
+    {
+      "Username": "akhilkompally",
+      "Password": "147852369",
+      "EmailID": "kompallygiridhar@gmail.com",
+      "id": 8
+    },
+    {
+      "Username": "akhilkompally",
+      "Password": "147852369",
+      "EmailID": "kompallygiridhar@gmail.com",
+      "id": 9
+    },
+    {
+      "Username": "akhilkompally",
+      "Password": "123456789",
+      "EmailID": "kompallygiridhar@gmail.com",
+      "id": 10
+    },
+    {
+      "Username": "giridhar.kompally@anblicks.com",
+      "Password": "123456789",
+      "EmailID": "kompallygiridhar@gmail.com",
+      "id": 11
+    },
+    {
+      "Username": "akhilkompally",
+      "Password": "123456789",
+      "EmailID": "akhilkompally27@gmail.com",
+      "id": 12
+    },
+    {
+      "Username": "",
+      "Password": "",
+      "EmailID": "",
+      "id": 13
+    },
+    {
+      "Username": "akhilkompally27@gmail.com",
+      "Password": "123456789",
+      "EmailID": "kompallygiridhar@gmail.com",
+      "id": 14
+    },
+    {
+      "Username": "akhilkompally27@gmail.com",
+      "Password": "123456789",
+      "EmailID": "kompallygiridhar@gmail.com",
+      "id": 15
+    },
+    {
+      "Username": "akhilkompally27@gmail.com",
+      "Password": "123456789",
+      "EmailID": "kompallygiridhar@gmail.com",
+      "id": 16
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

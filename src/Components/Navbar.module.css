@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+nav {
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    margin: 0;
+}
+a {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color:white; 
+}
+
