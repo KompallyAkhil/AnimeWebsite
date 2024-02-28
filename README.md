@@ -24,8 +24,10 @@ The page will reload when you make changes, and you may see any lint errors in t
 
 To store user data, run the REST API server:
 
-bash
 Copy code:
+
+
+
     json-server --watch db.json --port 8000
 
 
