@@ -39,7 +39,7 @@ function Movies(){
     {Data2}
     </div>
     <Modal isOpen={isModalOpen} onRequestClose={closeDialog} className={css.modal} overlayClassName={css.overlay}>
-      <ReactPlayer controls={true}height={690} width={1175} className={css.reactplayer} url={videoUrl} playing={true}></ReactPlayer>
+      <ReactPlayer controls={true}height={690} width={1175} loop className={css.reactplayer} url={videoUrl} playing={true}></ReactPlayer>
     </Modal>
     </>)
 }

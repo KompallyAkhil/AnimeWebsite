@@ -9,17 +9,14 @@ function RegisterForm(){
         username : '',
         email:'',
         password:'',
-        conformpassword:''
+        confirmpassword:''
     });
-   
     function Input(event){
         FullData({...Data,[event.target.name]:event.target.value})
     }
-
-    
     function Register(event){
         let RegisteredData = {"Username":Data.username,"Password":Data.password,"EmailID":Data.email}
-        fetch("http://localhost:8000/posts",{
+        fetch("http://localhost:8000/RegisterData",{
             method:"POST",
             headers:{'content-type':'application/json'},
             body:JSON.stringify(RegisteredData)
@@ -28,7 +25,6 @@ function RegisterForm(){
             toast.success("Registered Successfully")
             
         })
-
         function Emailvalidate(email){
             var Keys = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
             if (email && email.match(Keys)) {
@@ -58,7 +54,7 @@ function RegisterForm(){
             toast.error("Password is too short")
             event.preventDefault()
         }
-        if(Data.password!==Data.conformpassword){
+        if(Data.password!==Data.confirmpassword){
             toast.warn("Passwords don't match")
             event.preventDefault()
         }
@@ -68,21 +64,18 @@ function RegisterForm(){
     <div className={CSS.registercontainer}>
         <h2 className={CSS.heading}>Register Now</h2>
         <label>Username:</label>
-        <input type="text" value={Data.username} name="username" onChange={Input} required/>
+        <input type="text" value={Data.username} name="username" autoFocus onChange={Input} required/>
         <label>Email:</label>
         <input type="text" value={Data.email} name="email" onChange={Input}required/>
         <label>Password:</label>
         <input type="password" value={Data.password} name="password" onChange={Input} required/>
         <label>Confirm Password:</label>
-        <input type="password" value={Data.conformpassword} name="conformpassword" onChange={Input} required/>
+        <input type="password" value={Data.confirmpassword} name="confirmpassword" onChange={Input} required/>
         <div className="register">
             <Link to='/Login'><button className={CSS.button} onClick={Register}>Register</button></Link>
             <ToastContainer />
         </div>
-
-
     </div>
-
     </>)
 }
 export default RegisterForm;

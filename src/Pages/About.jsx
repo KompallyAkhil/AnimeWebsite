@@ -10,9 +10,8 @@ function About(){
             <p>Get ready for a rollercoaster of emotions as we bring you insightful reviews, exciting recommendations, and the latest news from the anime universe. Whether you're a seasoned otaku or just stepping into this fantastic world, our blog is your go-to destination for immersive content.</p>
             <div className={css.centre}>
             <h4>100% Entertainment</h4>
-            <Link to="/RegisterForm"><button className={css.about}>Get Started</button></Link>
+            <Link to="/Login"><button className={css.about}>Get Started</button></Link>
             </div>
-
         </div>
         </>
     )

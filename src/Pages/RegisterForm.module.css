@@ -47,9 +47,9 @@ input {
 .heading{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
-    color: black;
+    color: white;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
     .registercontainer {
       width: 90%;
     }
