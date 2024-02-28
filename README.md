@@ -76,10 +76,10 @@ Possible Improvements
 
 
 
-You can just run the code by adding
+🌟 You can just run the code by adding
 
 
-🌟 vscode.dev/
+○  vscode.dev/
 
 
 by going into a code and add above line in front in the search engine
