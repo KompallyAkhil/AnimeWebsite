@@ -27,15 +27,25 @@ To store user data, run the REST API server:
 bash
 Copy code:
     json-server --watch db.json --port 8000
+
+
+
 Features:
 🌟 Limited collection of anime videos.
 🌟 User data storage using a REST API with db.json.
 🌟 Notifications using react-toastify.
 🌟 Video playback using react-player.
+
+
+
 Usage:
 Navigate to http://localhost:3000 in your browser.
 Explore the anime collection.
 Interact with the videos and check out the user interface.
+
+
+
+
 Possible Improvements
 ○ Enhance responsiveness for various screen sizes.
 ○ Implement user authentication for personalized experiences.
