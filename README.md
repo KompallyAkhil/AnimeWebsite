@@ -31,28 +31,45 @@ Copy code:
 
 
 Features:
+ 
 🌟 Limited collection of anime videos.
+
 🌟 User data storage using a REST API with db.json.
+
 🌟 Notifications using react-toastify.
+
 🌟 Video playback using react-player.
 
 
 
 Usage:
+
 Navigate to http://localhost:3000 in your browser.
+
 Explore the anime collection.
+
 Interact with the videos and check out the user interface.
 
 
 
 
+
 Possible Improvements
+
 ○ Enhance responsiveness for various screen sizes.
+
 ○ Implement user authentication for personalized experiences.
+
 ○ Dynamically fetch anime data from external APIs for an extensive library.
+
 ○ Add search functionality to help users find specific anime titles or genres.
+
 ○ Customize video player controls for an improved user experience.
+
 ○ Implement loading states and meaningful error handling.
+
+
+
  Optimize React code for better performance.
 
 
