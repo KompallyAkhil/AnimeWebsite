@@ -73,7 +73,12 @@ Possible Improvements
  Optimize React code for better performance.
 
 
+
 Acknowledgments
+
 Special thanks to the developers of json-server, react-toastify, and react-player for their valuable contributions.
+
 Anime images and videos are property of their respective creators.
+
+
 Happy watching! 🎉
