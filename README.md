@@ -24,6 +24,19 @@ The page will reload when you make changes, and you may see any lint errors in t
 
 To store user data, run the REST API server:
 
+
+
+
+Install this verison of json-server in your desktop
+
+
+
+Copy code:
+
+
+         npm install -g json-server@0.16.3
+
+
 Copy code:
 
 
