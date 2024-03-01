@@ -1,5 +1,13 @@
 # AnimeWebsite
 
+
+
+
+This is my first React Project
+
+
+
+
 Welcome to AnimeWebsite, a React-based website showcasing a collection of anime videos. This project utilizes a REST API with a `db.json` file to store user data and limited video content.
 
 ## Getting Started
