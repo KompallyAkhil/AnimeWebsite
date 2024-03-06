@@ -39,7 +39,7 @@ Install this verison of json-server in your desktop
 Copy code:
 
 
-      npm install -g json-server@0.16.3
+  npm install -g json-server@0.16.3
 
 
 Copy code:
