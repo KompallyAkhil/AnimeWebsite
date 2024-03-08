@@ -97,16 +97,7 @@ Possible Improvements
 🌟 You can just run the code by adding
 
 
-○  vscode.dev/
 
-
-by going into a code and add above line in front in the search engine
-
-
-
-Example:
-
-vscode.dev/https://github.com/Username/RepoName/blob/main/src/Example.css
 
 
 Acknowledgments
